@@ -1,7 +1,5 @@
 # OpenAI Chatbot Readme
 
-![Chatbot Banner](banner_image.png) <!-- Replace with your banner image URL -->
-
 Welcome to the OpenAI Chatbot project! This chatbot is powered by OpenAI's GPT-3.5, a state-of-the-art language model capable of engaging in natural and dynamic conversations. Whether you want to integrate this chatbot into your website, application, or any other platform, this guide will provide you with all the necessary information to get started.
 
 ## Features
