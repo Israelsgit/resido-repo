@@ -16,6 +16,10 @@ svg, button, a{
 span {
     color: #51A0CD;
 }
+.logo1 img,
+footer img {
+    scale: .7;
+}
 /* END */
 
 
@@ -103,9 +107,6 @@ nav {
     justify-content: space-between;
     gap: 16px;
     padding: 10px;
-}
-#web-logo {
-    display: none;
 }
 /* END */
 
@@ -352,7 +353,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 20px;
-    grid-gap: 20px;
+    grid-gap: 60px;
+    grid-row-end: auto;
 }
 .footer ul {
     list-style: none;
@@ -429,11 +431,10 @@ footer {
     .card {
         width: 100%;
     }
-    #logo {
-        display: none;
-    }
-    #web-logo {
-        display: inline;
+    .logo1 img,
+    footer img
+    {
+        scale: 1;
     }
     nav {
         margin: 0;
